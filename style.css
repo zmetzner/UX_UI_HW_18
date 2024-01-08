@@ -1,0 +1,210 @@
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #0D0F30;
+    /* background-color: #0D0F30; */
+}
+
+/* Navigation Elements */
+
+header.navigation{
+    text-align: center;
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav{
+    width: 73%;
+    padding: 1%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.inline-block:hover{
+    color: #FA9867;
+    transition: 0.5s;
+}
+
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Hero Image + Description Elements */
+
+section.heroImg{
+    height: 40%;
+    padding: 25px;
+}
+
+.section-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container{
+    flex: 1;
+    max-width: 40%;
+    margin-left: 8;
+
+}
+
+.text-container{
+    flex: 1;
+    margin-right: 8%;
+    /* padding: 0 20px; */
+}
+
+.whoAmI{
+    font-size: 96px;
+    font-family: 'Mako', sans-serif;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+hr.hero-line{
+    position: relative;
+    top: -50px;
+    height: 7px;
+    background: linear-gradient(to right, #FA9867, #B024C0);
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
+
+hr.skillsLine{
+    position: relative;
+    top: -50px;
+    height: 7px;
+    background: linear-gradient(to right, #FA9867, #B024C0);
+}
+
+p.description{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+h3{
+    font-size: 64px;
+    font-family: 'Mako', sans-serif;
+    color: #FFFFFF;
+}
+
+.myself{
+
+    /* Could not get the border to work around an image with rounded corners */
+
+    max-width: 100%;
+    /* width: 600px; */
+    border: 5px solid transparent;
+    border-image: linear-gradient(90deg,  #FA9867, #B024C0);
+    border-image-slice: 1;
+    /* border-radius: 100px; */
+}
+
+.allSkills{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills {
+    padding: 25px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 32px;
+    background-color: #FFFFFF;
+}
+
+.borderGradient{
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #FA9867, #B024C0) 1;
+}
+
+/* Footer Elements */
+
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reach-out {
+    text-align: left;
+    font-size: 36px;
+}
+
+.reach-out h3{
+    margin-top: -50px;
+    color: #FF9867
+}
+.reach-out h3 span{
+    color: #FFFFFF;
+}
+
+.contact-details {
+    flex: 1;
+    text-align: right;
+    font-size: 24px;
+}
+
+.contact {
+    font-style: italic;
+}
+
+.phone-number, .email, .linkedin {
+    margin: 5px 0;
+}
+
+.via-email, .via-linkedin {
+    font-style: italic;
+}
+
+footer .logo-container{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    align-items: center;
+}
+
+footer .logo{
+    position: absolute;
+}
